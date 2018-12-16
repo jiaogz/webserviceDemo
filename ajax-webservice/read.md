@@ -1,0 +1,1 @@
+## ajax请求webservice访问天气信息
