@@ -17,16 +17,17 @@
      拦截器  
       -->
   <jaxws:server address="/employeeManager" serviceClass="cn.yun.service.EmployeeManage">
-   <jaxws:serviceBean>
-    <ref bean="employeeManagerImpl"/>
-   </jaxws:serviceBean>
-   <!-- 配置输入显示日志信息的拦截器   -->
-   <jaxws:inInterceptors>
-    <bean class="org.apache.cxf.interceptor.LoggingInInterceptor"></bean>
-   </jaxws:inInterceptors>
-   <jaxws:outInterceptors>
-    <bean class="org.apache.cxf.interceptor.LoggingOutInterceptor"></bean>
-   </jaxws:outInterceptors>
+       <jaxws:serviceBean>
+            <ref bean="employeeManagerImpl"/>
+       </jaxws:serviceBean>
+
+      <!-- 配置输入显示日志信息的拦截器   -->
+       <jaxws:inInterceptors>
+            <bean class="org.apache.cxf.interceptor.LoggingInInterceptor"></bean>
+       </jaxws:inInterceptors>
+       <jaxws:outInterceptors>
+            <bean class="org.apache.cxf.interceptor.LoggingOutInterceptor"></bean>
+       </jaxws:outInterceptors>
   </jaxws:server>
  
 
