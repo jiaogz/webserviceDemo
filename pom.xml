@@ -13,6 +13,9 @@
         <module>socket</module>
         <module>webservice-ws</module>
         <module>ajax-webservice</module>
+        <module>cxf-jaxws-service</module>
+        <module>cxf-jarws-client</module>
+        <module>cxf-spring-jaxws-service</module>
     </modules>
 
 
