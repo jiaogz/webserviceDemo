@@ -17,6 +17,10 @@
         <module>cxf-jarws-client</module>
         <module>cxf-spring-jaxws-service</module>
         <module>cxf-spring-jaxws-client</module>
+        <module>cxf-jawrs-service</module>
+        <module>cxf-jawrs-client</module>
+        <module>cxf-spring-jaxrs-service</module>
+        <module>cxf-spring-jaxrs-client</module>
     </modules>
 
 
