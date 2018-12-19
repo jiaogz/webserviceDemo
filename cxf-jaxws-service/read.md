@@ -35,7 +35,17 @@
     - 发布使用，使用JaxWsServerFactoryBean创建工厂
     
 * 客户端 
+
+    方式一：
     
     - wsImport生成本地代理，安装jar
     
     - 调用服务
+    
+    方式二：
+    
+    - 添加jar包
+    
+    - 书写接口
+    
+    - 远程调用

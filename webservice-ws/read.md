@@ -1,9 +1,12 @@
 ## webservice
 
 ### 介绍
+
+   Webservice就是跨语言、跨平台的远程调用技术。
+
 * WebService技术规则：
  
-    1. 基于web的系统级接口规范
+    1. 基于web的系统级接口规范：JaxWS、JaxRS、JaxM
     
     - 一个普通适用标准 :http+xml
     
@@ -13,7 +16,7 @@
     
     - 发布、定位、通过web调用
  
-   2. web service 技术和规则
+   2. webservice 要素
     
     - xml(可拓展标记语言)
     
